@@ -8,7 +8,12 @@ const Header = () => {
     <header>
       <div className="flex justify-between py-5 lg:px-20 px-2">
         <div className="flex items-center gap-2">
-          <img className="w-[30px]" src={logo} alt="Logo do RoomOM" />
+          <img
+            className="w-[30px]"
+            src={logo}
+            alt="Logo do RoomOM"
+            loading="lazy"
+          />
           <h3 className="text-lg font-bold font-main text-white uppercase">
             Room.OM
           </h3>
