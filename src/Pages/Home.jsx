@@ -18,7 +18,6 @@ import perfil from "../assets/imgs/Capas/perfilJoao.jpeg";
 import PerfilCard from "../components/PerfilCard";
 
 const Home = () => {
-  const WorldMap = lazy(() => import("../components/UI/world-map"));
   const arr = [react, tailwind, clerk, convex, stream];
 
   return (
@@ -56,37 +55,12 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="py-5 flex justify-center items-center w-full">
-          <Suspense fallback={<Loading />}>
-            <WorldMap
-              dots={[
-                {
-                  start: { lat: 64.2008, lng: -149.4937 },
-                  end: { lat: 34.0522, lng: -118.2437 },
-                },
-                {
-                  start: { lat: 64.2008, lng: -149.4937 },
-                  end: { lat: -15.7975, lng: -47.8919 },
-                },
-                {
-                  start: { lat: -15.7975, lng: -47.8919 },
-                  end: { lat: 38.7223, lng: -9.1393 },
-                },
-                {
-                  start: { lat: 51.5074, lng: -0.1278 },
-                  end: { lat: 28.6139, lng: 77.209 },
-                },
-                {
-                  start: { lat: 28.6139, lng: 77.209 },
-                  end: { lat: 43.1332, lng: 131.9113 },
-                },
-                {
-                  start: { lat: 28.6139, lng: 77.209 },
-                  end: { lat: -1.2921, lng: 36.8219 },
-                },
-              ]}
-            />
-          </Suspense>
+        <div className="py-5 w-full flex items-center justify-center rounded-md">
+          <img
+            className="flex lg:w-[60%] lg:h-[600px] w-full px-2 lg:px-0 object-cover items-center justify-center rounded-md"
+            src="https://i.ibb.co/qsJF1st/Home-Room-OM.png"
+            alt="Imagem de uma mão segurando um celular e atrás um computador"
+          />
         </div>
       </main>
       <section className="flex flex-col items-center mb-[100px] mt-14">
