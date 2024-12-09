@@ -20,8 +20,8 @@ const Header = () => {
         </div>
 
         <div className="flex lg:gap-5 gap-2">
-          <ButtonCadastro redirect="/cadastro">Cadastre-se</ButtonCadastro>
-          <ButtonLogin redirect="/logar">Entrar</ButtonLogin>
+          <ButtonCadastro redirect="/login">Cadastre-se</ButtonCadastro>
+          <ButtonLogin redirect="/login">Entrar</ButtonLogin>
         </div>
       </div>
     </header>
