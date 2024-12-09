@@ -42,7 +42,7 @@ const Login = () => {
             onClick={handleGoogleLogin}
             className="font-regular flex h-10 w-full items-center justify-center gap-2 rounded-md bg-neutral-900 text-white"
           >
-            <FaGoogle /> <div>Continue com o Google</div>
+            <FaGoogle size={23} /> <div>Continue com o Google</div>
           </button>
 
           <button
