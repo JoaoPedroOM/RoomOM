@@ -1,8 +1,10 @@
+import Header from "../components/global/Header"
+
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <>
+      <Header/>
+    </>
   )
 }
 
